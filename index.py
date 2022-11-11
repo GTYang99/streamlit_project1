@@ -29,3 +29,15 @@ st.sidebar.markdown('''
 ---
 這是***段落2***
 ''')
+
+with st.sidebar:
+    st.markdown('''
+    ### 這是sidebar2
+    ---
+    這是**段落2-1**
+    ---
+    這是***段落2-2***
+    ''')
+    st.button('按鈕1')
+
+print('程式結束點')
