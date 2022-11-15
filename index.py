@@ -14,14 +14,19 @@ if db is None :
     if app is None:
         app = firebase_admin.initialize_app(cred)
     db = firestore.client()
-
-doc_ref = db.collection('records')
-docs = doc_ref.get()
+# 建立與數據庫連線
+records_ref = db.collection('records')
+# 只取20筆數據
+query = records_ref.limit_to_last(20)
+docs = query.get()
 print(docs)
 for doc in docs:
-    print(doc)
+    # print(doc)
+    # print(doc.to_dict()['日期'])        #doc轉成字典
+    dict_data = doc.to_dict()
 
 st.title('光線和距離即時監控')
+st.table(dict_data)
 
 def downloaddata():
     print("下載資料")
