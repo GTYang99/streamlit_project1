@@ -5,12 +5,13 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 import json
 
-# Application Default credentials are automatically created.
-cred = credentials.Certificate('private/raspberry1-58efc-firebase-adminsdk-tzk5o-6836a56c1e.json')
-
-app = firebase_admin.initialize_app(cred)
-
-db = firestore.client()
+app = None
+db = None
+if db is None :
+    key_dict = json.loads(st.secrets["textkey"])
+    cred = credentials.Certificate(key_dict)
+    if app is None:
+        app = firebase_admin.initialize_app(cred)
 
 st.title('光線和距離即時監控')
 
