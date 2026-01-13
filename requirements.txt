@@ -328,14 +328,16 @@ uritemplate==4.2.0
     # via
     #   -r requirements.in
     #   google-api-python-client
-urllib3==2.6.0
+urllib3==2.6.3
     # via
     #   -r requirements.in
     #   requests
 validators==0.35.0
     # via -r requirements.in
 watchdog==6.0.0
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   streamlit
 zipp==3.23.0
     # via
     #   -r requirements.in
