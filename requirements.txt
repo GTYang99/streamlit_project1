@@ -201,7 +201,7 @@ proto-plus==1.26.1
     #   -r requirements.in
     #   google-api-core
     #   google-cloud-firestore
-protobuf==6.32.0
+protobuf==6.33.5
     # via
     #   -r requirements.in
     #   google-api-core
