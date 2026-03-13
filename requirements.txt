@@ -192,7 +192,7 @@ pandas==2.3.1
     # via
     #   -r requirements.in
     #   streamlit
-pillow==12.1.1
+pillow==11.3.0
     # via
     #   -r requirements.in
     #   streamlit
@@ -201,7 +201,7 @@ proto-plus==1.26.1
     #   -r requirements.in
     #   google-api-core
     #   google-cloud-firestore
-protobuf<=6.33.4
+protobuf==6.33.5
     # via
     #   -r requirements.in
     #   google-api-core
@@ -304,7 +304,7 @@ toml==0.10.2
     #   streamlit
 toolz==1.0.0
     # via -r requirements.in
-tornado==6.5.2
+tornado==6.5.5
     # via
     #   -r requirements.in
     #   streamlit
