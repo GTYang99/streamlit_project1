@@ -192,7 +192,7 @@ pandas==2.3.1
     # via
     #   -r requirements.in
     #   streamlit
-pillow>=10.0.0,<12.0.0
+pillow==11.3.0
     # via
     #   -r requirements.in
     #   streamlit
@@ -214,7 +214,7 @@ pyarrow==21.0.0
     # via
     #   -r requirements.in
     #   streamlit
-pyasn1==0.6.2
+pyasn1==0.6.3
     # via
     #   -r requirements.in
     #   pyasn1-modules
