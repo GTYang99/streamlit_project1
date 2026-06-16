@@ -220,7 +220,7 @@ protobuf==6.33.5
     #   grpcio-status
     #   proto-plus
     #   streamlit
-pyarrow==21.0.0
+pyarrow==23.0.1
     # via
     #   -r requirements.in
     #   streamlit
