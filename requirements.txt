@@ -318,7 +318,7 @@ toml==0.10.2
     #   streamlit
 toolz==1.0.0
     # via -r requirements.in
-tornado==6.5.5
+tornado==6.5.7
     # via -r requirements.in
 typing-extensions==4.14.1
     # via
