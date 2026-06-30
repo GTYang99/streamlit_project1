@@ -245,7 +245,7 @@ pygments==2.20.0
     # via
     #   -r requirements.in
     #   rich
-pyjwt[crypto]==2.12.0
+pyjwt[crypto]==2.13.0
     # via
     #   -r requirements.in
     #   firebase-admin
