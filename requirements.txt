@@ -261,7 +261,7 @@ python-dateutil==2.9.0.post0
     # via
     #   -r requirements.in
     #   pandas
-python-multipart==0.0.29
+python-multipart==0.0.31
     # via streamlit
 pytz==2025.2
     # via
