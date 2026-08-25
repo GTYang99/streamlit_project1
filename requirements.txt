@@ -224,7 +224,7 @@ pyarrow==23.0.1
     # via
     #   -r requirements.in
     #   streamlit
-pyasn1==0.6.3
+pyasn1==0.6.4
     # via
     #   -r requirements.in
     #   pyasn1-modules
