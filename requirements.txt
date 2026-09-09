@@ -68,7 +68,7 @@ gitdb==4.0.12
     # via
     #   -r requirements.in
     #   gitpython
-gitpython==3.1.58
+gitpython==3.1.59
     # via
     #   -r requirements.in
     #   streamlit
