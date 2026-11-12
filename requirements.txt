@@ -68,7 +68,7 @@ gitdb==4.0.12
     # via
     #   -r requirements.in
     #   gitpython
-gitpython==3.1.62
+gitpython==3.2.1
     # via
     #   -r requirements.in
     #   streamlit
@@ -202,7 +202,7 @@ pandas==2.3.1
     # via
     #   -r requirements.in
     #   streamlit
-pillow>=13.0.0
+pillow==12.3.0
     # via
     #   -r requirements.in
     #   streamlit
