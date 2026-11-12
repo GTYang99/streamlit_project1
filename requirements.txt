@@ -202,7 +202,7 @@ pandas==2.3.1
     # via
     #   -r requirements.in
     #   streamlit
-pillow==12.3.0
+pillow>=13.0.0
     # via
     #   -r requirements.in
     #   streamlit
